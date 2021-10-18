@@ -1,0 +1,124 @@
+.imagemservicos{
+    background-image: url(Imagens/teste4.png);
+    background-position: 50%;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
+
+
+#nossosservicos{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: #3d4d25;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ .borda-texto-servicos{
+     -webkit-text-stroke-color: #95bf56;
+     -webkit-text-stroke-width: 2px;
+ }
+
+ #texto-nossos-servicos{
+    font-family: Montserrat;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    color: #000000;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: italic;
+    width: 50%;
+    top: -48px;
+ }
+
+
+
+.borda-texto-servicos2{
+    -webkit-text-stroke-color: #000000;
+    -webkit-text-stroke-width: 2px;
+}
+
+
+.estilodetexto{
+    font-size: 30px;
+    font-family: Montserrat;
+}
+
+
+.servicos{
+	padding: 5% 10%;
+	text-align: center;
+}
+
+
+.servicos{
+	background: #f5f5f5;
+}
+
+.servicos_wrapper .servico{
+	display: flex;
+	justify-content: space-between;
+}
+
+.servicos_wrapper .servico-1.servico{
+	margin-bottom: 25px;
+}
+
+.servicos_wrapper .servico_foto{
+	width: 30%;
+	height: auto;
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.servicos_wrapper .servico_foto img{
+	width: 100%;
+	display: block;
+	height: auto;
+	transition: all 0.5s ease;
+}
+
+.servicos_wrapper .servico_foto:hover img{
+	transform: scale(1.1);
+}
+
+@media screen and (max-width: 900px) {
+
+    .imagemservicos {
+        width: 100%;
+        height: 150px;
+    }
+
+    #nossosservicos {
+        font-size: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #texto-nossos-servicos {
+        font-size: 16px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+        width: 65%;
+    }
+
+    .relative1 {
+      margin-right: -30px;
+    }
+
+    .estilodetexto{
+        font-size: 30px;
+        font-family: Montserrat;
+        position: relative;
+        top:45px;
+    }
+
+  }

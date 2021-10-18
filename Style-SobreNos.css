@@ -1,0 +1,187 @@
+body {
+  background-color: #fbfff9;
+}
+
+.FotoPrincipalSobreNos {
+  background-image: url(Imagens/test4.jpg);
+  background-position: 50%;
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+}
+
+.SobreNosH1 {
+  font-family: Montserrat;
+  text-align: center;
+  font-weight: 600;
+  color: rgba(149, 191, 86, 1);
+  font-size: 50px;
+  margin-top: 1px;
+  -webkit-text-stroke-width: 2px;
+}
+
+.TextoSobreNos1 {
+  font-family: Montserrat;
+  font-style: italic;
+  font-weight: 800;
+  font-size: x-large;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: -95px;
+}
+
+.TextoSobreNos2 {
+  font-family: Montserrat;
+  font-style: italic;
+  font-weight: 800;
+  font-size: x-large;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -60px;
+}
+#SetaDireita {
+  position: relative;
+  margin-left: 73%;
+  width: 70px;
+  top: -175px;
+}
+
+#SetaEsquerda {
+  position: relative;
+  margin-left: 19%;
+  width: 70px;
+  top: -225px;
+}
+
+.FotoCarrossel1 {
+  background-image: url(Imagens/sobre-01-img.jpg);
+  background-size: cover;
+  margin-right: auto;
+  margin-left: auto;
+  width: 450px;
+  height: 327px;
+}
+
+.FotoCarrossel2 {
+  background-image: url(Imagens/sobre-02-img.jpg);
+  background-size: cover;
+  margin-right: auto;
+  margin-left: auto;
+  width: 450px;
+  height: 327px;
+  
+}
+
+.FotoCarrossel3 {
+  background-image: url(Imagens/sobre-03-atual.jpg);
+  background-size: cover;
+  margin-right: auto;
+  margin-left: auto;
+  width: 450px;
+  height: 327px;
+  
+}
+
+.circulos {
+  position: relative;
+  top: -77px;
+  margin-right: 50%;
+  margin-left: 50%;
+}
+
+#Circ1 {
+  position: absolute;
+  margin-left: -75px;
+  top: auto;
+}
+
+#Circ2 {
+  position: absolute;
+  margin-left: 0px;
+  top: auto;
+}
+
+#Circ3 {
+  position: absolute;
+  margin-left: 75px;
+  top: auto;
+}
+
+@media screen and (max-width: 900px) {
+  
+  .FotoPrincipalSobreNos {
+    background-image: url(Imagens/test4.jpg);
+    background-position: 50%;
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+  
+  }
+
+  .FotoCarrossel1 {
+    width: 304px;
+    height: 220px;
+  }
+
+  .FotoCarrossel2 {
+    width: 304px;
+    height: 220px;
+  }
+
+  .FotoCarrossel3 {
+    width: 304px;
+    height: 220px;
+  }
+
+  #SetaDireita {
+    position: relative;
+    margin-left: 81%;
+    width: 70px;
+    top: -130px;
+  }
+
+  #SetaEsquerda {
+    position: relative;
+    margin-left: 4%;
+    width: 70px;
+    top: -181px;
+  }
+
+  .circulos {
+    position: relative;
+    top: -50px;
+    margin-right: 50%;
+    margin-left: 50%;
+  }
+
+  .SobreNosH1 {
+    font-size: 35px;
+    margin-bottom: 60px;
+    margin-top: -15px;
+  }
+
+  .TextoSobreNos1 {
+    position: relative;
+    top: -88px;
+    font-size: 15px;
+    margin-top: -10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+  }
+
+  .TextoSobreNos2 {
+    position: relative;
+    top: 110px;
+    font-size: 15px;
+    margin-bottom: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+  }
+}

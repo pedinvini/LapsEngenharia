@@ -1,0 +1,176 @@
+
+footer{
+	bottom: 0;
+}
+ 
+@media (max-height:800px){
+	footer { position: static; }
+	header { padding-top:40px; }
+}
+ 
+ 
+.footer-principal{
+	background-color: #373737;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px Montserrat;
+	padding: 50px 50px 60px 50px;
+	margin-top: 80px;
+}
+ 
+.footer-principal .footer-left,
+.footer-principal .footer-center,
+.footer-principal .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+ 
+ 
+.footer-principal .footer-left{
+	width: 30%;
+}
+ 
+.footer-principal h3{
+	color:  #ffffff;
+	font: normal 15px;
+    font-family: Montserrat;
+	margin: 0;
+}
+ 
+ 
+.footer-principal .footer-left img{
+	width: 50%;
+}
+ 
+
+
+a:link{
+    color:white;
+    text-decoration: none;
+}
+
+a:visited{
+    color:white;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#95BF56;
+}
+
+ 
+.footer-principal .footer-center{
+	width: 40%;
+}
+ 
+ 
+.footer-principal .footer-center i{
+	background-color:  #373737;
+	color: #ffffff;
+	font-size: 10px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+ 
+.footer-principal .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+ 
+.footer-principal .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+    font-size: 20px;
+}
+ 
+.footer-principal .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:20px;
+	line-height:2;
+}
+ 
+ 
+.lista{
+    font-family: Montserrat;
+    font-size:20px;
+    color:#ffffff;
+
+}
+
+ 
+.footer-principal .footer-right{
+	width: 18%;
+	margin-left: 5%;
+}
+ 
+.footer-principal .footer-links-uteis{
+	line-height: 20px;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+ 
+.footer-principal .footer-links-uteis span{
+	display: block;
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+ 
+.footer-principal .footer-icons{
+	margin-top: 25px;
+}
+ 
+.footer-principal .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	border-radius: 2px;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+.after-footer{
+    height: 38px;
+    background-color: rgb(68, 65, 65);
+    font-weight: bold;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 15px;
+    text-align: center;
+    position: center;
+
+}
+ 
+
+@media (max-width: 880px) {
+ 
+	.footer-principal .footer-left,
+	.footer-principal .footer-center,
+	.footer-principal .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+ 
+	.footer-principal .footer-center i{
+		margin-left: 0;
+	}
+ 
+}

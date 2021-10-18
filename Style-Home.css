@@ -1,0 +1,157 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+p{
+	margin-bottom: 15px;
+	font-family: Montserrat;
+    font-style: italic;
+    font-weight: 800;
+    justify-content: center;
+    font-size:30px;
+}
+
+
+.imgficouinteressado{
+    background-image: url(Imagens/ficouinteressado.png);
+    background-size: cover;
+	width: 100%;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h1.title{
+	margin-bottom: 20px;
+	color: #95bf56;
+	font-family: Montserrat;
+	text-transform: uppercase;
+	font-size: 38px;
+	word-spacing: 25px;
+	letter-spacing: 5px;
+}
+
+.btn a{
+	display: block;
+	width: 200px;
+	height: 50px;
+	border: 2px solid #000;
+	line-height: 35px;
+	margin: 25px auto 0;
+	color: #000;
+    font-size: 22px;
+	text-align: center;
+}
+
+.main_container{
+	position: relative;
+}
+
+.navbar{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: absolute;
+    background-color: #373737;
+}
+
+
+.navbar .navbar_items ul{
+	display: flex;
+}
+
+
+.navbar .navbar_items ul li{
+	text-transform: uppercase;
+	margin: 0 40px;
+}
+
+.navbar .navbar_items ul li a{
+	color: #fff;
+	font-family: Montserrat;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.banner_image{
+	background: url("Imagens/homeatualizada2.png") no-repeat top center;
+	background-size: cover;
+	width: 100%;
+	height: 750px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner_content{
+	text-align: center;
+	color: #fff;
+}
+
+.banner_content h1{
+	text-transform: uppercase;
+	line-height: 38px;
+	margin-bottom: 15px;
+}
+
+.about,
+.servicos,
+.contactus{
+	padding: 5% 10%;
+	text-align: center;
+}
+
+.servicos{
+	background: #f5f5f5;
+}
+
+.diff_servicos{
+	display: flex;
+	margin-top: 35px;
+	justify-content: space-between;
+}
+
+.diff_servico_item{
+	width: 30%;
+}
+
+.diff_servico_item img{
+	width: 100%;
+	margin-bottom: 25px;
+}
+
+
+
+@media (max-width: 720px){
+	.navbar{
+		height: auto;
+		flex-direction: column;
+	}
+
+	.navbar ul{
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.logo{
+		margin-bottom: 25px;
+	}
+
+	.navbar ul li{
+		margin-bottom: 5px;
+	}
+
+	.banner_content{
+		margin-top: 35px;
+	}
+}
+
