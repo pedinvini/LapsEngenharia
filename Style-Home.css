@@ -1,3 +1,7 @@
+a:hover{
+    color:#95BF56;
+}
+
 *{
 	margin: 0;
 	padding: 0;
@@ -68,6 +72,10 @@ h1.title{
 .navbar .navbar_items ul{
 	display: flex;
 }
+.navbar .navbar_items ul:active{
+	display: flex;
+	color:green;
+}
 
 
 .navbar .navbar_items ul li{
@@ -80,6 +88,14 @@ h1.title{
 	font-family: Montserrat;
 	font-weight: bold;
 	font-size: 20px;
+}
+.navbar .navbar_items ul li a:hover{
+	color:#95BF56;
+	font-family: Montserrat;
+	font-weight: bold;
+	font-size: 20px;
+	border-bottom: 5px solid #95BF56;
+    padding-bottom: 5px;
 }
 
 .banner_image{
